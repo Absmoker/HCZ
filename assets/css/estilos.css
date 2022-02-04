@@ -11,3 +11,23 @@
   box-shadow: var(--sombra);
 
 }
+
+.cabecalho__menu i::before{
+
+  content: var(--menu-i);
+  font-size: 24px;
+
+}
+
+.cabecalho__logo{
+
+  width: 40px;
+
+}
+
+.cabecalho__noficacao i::before{
+
+  content: var(--notificacao-i);
+  font-size: 24px;
+
+}

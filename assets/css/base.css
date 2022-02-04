@@ -1,15 +1,39 @@
 :root{
 
   --cor-p: #1D232A;
-
   --cor-s: #15191C;
-
   --cor-da-fonte-p: #ffffff;
+  --cor-da-fonte-s: #95999C;
+  --card: #2C343A;
+  --link: #0480DC;
+  --botao: #0480DC;
 
-  --fonte: 'Open Sans', sans-serif;
+  --fonte: 'Open Sans', 'icones', sans-serif;
+
+  --menu-i: "\e904";
+  --notificacao-i: "\e906";
+  --camisa-i: "\e900";
+  --carinho-i: "\e901";
+  --inicio-i: "\e902";
+  --integrantes-i: "\e903";
+  --moeda-i: "\e905";
+  --pico-i: "\e908";
+  --picos-i: "\e909";
+  --pintura-i: "\e90a";
+  --play-i: "\e90b";
+  --relogio-i: "\e90c";
+  --seta-baixo-i: "\e90d";
+  --video-i: "\e90e";
+  --visualizacao-i: "\e90f";
+
 
   --sombra: 0px 4px 4px rgba(0, 0, 0, 0.16);
 
+}
+
+@font-face {
+  font-family: 'icones';
+  src: url(../font/icones.ttf);
 }
 
 body{
