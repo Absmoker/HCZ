@@ -1,0 +1,23 @@
+:root{
+
+  --cor-p: #1D232A;
+
+  --cor-s: #15191C;
+
+  --cor-da-fonte-p: #ffffff;
+
+  --fonte: 'Open Sans', sans-serif;
+
+  --sombra: 0px 4px 4px rgba(0, 0, 0, 0.16);
+
+}
+
+body{
+
+  background-color: var(--cor-p);
+
+  font-family: var(--fonte);
+
+  color: var(--cor-da-fonte-p );
+
+}
