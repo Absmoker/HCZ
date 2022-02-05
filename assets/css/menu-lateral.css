@@ -1,9 +1,3 @@
-.active__menu{
-
-  left: 0vw;
-
-}
-
 .menu__lateral{
 
   display: flex;
@@ -16,6 +10,14 @@
 
   position: absolute;
   left: -100vw;
+  transition: left .25s;
+
+}
+
+.active__menu{
+
+  left: 0;
+  transition: left  .25s;
 
 }
 

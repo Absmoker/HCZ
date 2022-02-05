@@ -1,5 +1,6 @@
 :root{
 
+  /*Cores que usaresmo no site*/
   --cor-p: #1D232A;
   --cor-s: #15191C;
   --cor-da-fonte-p: #ffffff;
@@ -8,8 +9,10 @@
   --link: #0480DC;
   --botao: #0480DC;
 
+  /*Fonte desejada*/
   --fonte: 'Open Sans', 'icones', sans-serif;
 
+  /*Icones pré-selecionados pélo professor*/
   --menu-i: "\e904";
   --notificacao-i: "\e906";
   --camisa-i: "\e900";
@@ -26,16 +29,22 @@
   --video-i: "\e90e";
   --visualizacao-i: "\e90f";
 
-
+  /*Sombra pré-definida
+  Era mais um teste se até isso poderia ser feito
+  e eu fiquei muito impressionado com a
+  capacidade das variáveis*/
   --sombra: 0px 4px 4px rgba(0, 0, 0, 0.16);
 
 }
 
+/*Chamada necessária para os icones 
+selecionados a cima*/
 @font-face {
   font-family: 'icones';
   src: url(../font/icones.ttf);
 }
 
+/*O padrão do site*/
 body{
 
   background-color: var(--cor-p);
