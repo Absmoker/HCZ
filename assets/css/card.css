@@ -109,6 +109,14 @@
 
 }
 
+.cartao__botao--compra::before{
+
+  content: var(--carinho-i);
+
+  font-size: 24px;
+
+}
+
 .cartao__botao--destaque{
 
   width: 100%;
@@ -120,6 +128,14 @@
 .cartao__botao--destaque::before{
 
   margin-right: 8px;
+
+}
+
+.cartao__info--cash::before{
+
+  content: var(--moeda-i);
+
+  font-size: 24px;
 
 }
 
