@@ -25,6 +25,14 @@
 
 }
 
+.cartao__img--picos{
+
+  width: 250%;
+
+  overflow: scroll;
+
+}
+
 .cartao__destaque{
 
   grid-column: span 2;
@@ -83,6 +91,14 @@
 
 }
 
+.cartao__info--cash::before{
+
+  content: var(--moeda-i);
+
+  font-size: 24px;
+
+}
+
 .cartao__botao{
 
   display: flex;
@@ -131,9 +147,9 @@
 
 }
 
-.cartao__info--cash::before{
+.cartao__botao--picos::before{
 
-  content: var(--moeda-i);
+  content: var(--pico-i);
 
   font-size: 24px;
 
